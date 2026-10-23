@@ -2,7 +2,7 @@
 // 
 import http from 'node:http'
 import { env } from './env.js'
-import{createServerApplication} from './app/index.js'
+import{createServerApplication} from './app/weather/index.js'
 
 async function main() {
   try {

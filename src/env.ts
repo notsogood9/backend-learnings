@@ -2,7 +2,7 @@ import { z } from "zod";
 
 const envSchema = z.object({
   PORT: z.string().optional(),
-  API_KEY:z.string(),
+  // API_KEY:z.string(),
 })
 
 
